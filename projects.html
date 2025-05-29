@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Open navigation" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener"><i
+                    class="fab fa-github fa-lg"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener"><i
+                    class="fa-brands fa-linkedin-in fa-lg"></i></a>
+            <img src="assets/profile.png" alt="Profile Picture" style="vertical-align: middle;" class="profile-pic2">
+        </div>
+    </nav>
+    <div class="main">
+        <div>
+            <h2 class="header">Featured Projects</h2>
+            <p class="txt">Explore a selection of my most impactful projects in data science, machine learning, and Al
+                research. Each project highlights the problem, my
+                approach, results, and key learnings.</p>
+        </div>
+        <div class="project">
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="assets/projects/project1.png" alt="Project Image">
+                </div>
+                <div class="project-details">
+                    <h3 class="header">Predictive Analytics for Customer Retention</h3>
+                    <p style="font-size: 0.8rem;">
+                        Developed a machine learning model to
+                        predict customer churn for a subscription-
+                        based service, resulting in a 15% reduction in
+                        churn rate.<br>
+                        Utilized Python, scikit-learn, and TensorFlow
+                        to build and deploy the model. Implemented
+                        feature engineering techniques and
+                        hyperparameter tuning to optimize
+                        performance.
+                    </p>
+                    <a href="#project-details" class="view-more-btn">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div><br>
+        <div class="project">
+            <div class="project-container">
+                <div class="project-image">
+                    <img src="assets/projects/project2.png" alt="Project Image">
+                </div>
+                <div class="project-details">
+                    <h3 class="header">AI Powered Image Recognition System</h3>
+                    <p style="font-size: 0.8rem;">
+                        Designed and implemented an Al system for
+                        image recognition, achieving 95% accuracy on
+                        a benchmark dataset.<br>
+                        Employed convolutional neural networks
+                        (CNNs) and transfer learning techniques.
+                        Used PyTorch for model training and
+                        evaluation.
+                    </p>
+                    <a href="#project-details" class="view-more-btn">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

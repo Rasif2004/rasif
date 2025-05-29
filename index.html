@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="Logo">
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Open navigation" tabindex="0">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="research.html">Research</a>
+            <a href="contact.html">Contact</a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener"><i
+                    class="fab fa-github fa-lg"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener"><i
+                    class="fa-brands fa-linkedin-in fa-lg"></i></a>
+            <img src="assets/profile.png" alt="Profile Picture" style="vertical-align: middle;" class="profile-pic2">
+        </div>
+    </nav>
+    <section class="profile-section">
+        <img src="assets/profile.png" alt="Profile Picture" class="profile-pic">
+    </section>
+    <h1 class="Name">Sajidul Kabir Rasif</h1>
+    <div class="typewriter">
+        <span>I'm a </span>
+        <span id="typed"></span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Student', 'Developer', 'Data Scientist'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+            backDelay: 1000
+        });
+    </script>
+    <p class="intro">The goal is to be involved in projects that contribute to solving real-life
+        problems using the potential of data. I strongly believe that my enthusiasm
+        about computer science, combined with my firm academic background and
+        eagerness to learn, will be effective in enabling me to prosper in this
+        dynamic, ever-evolving field.</p>
+
+    <div class="CV">
+        <a href="https://drive.google.com/uc?export=download&id=1vpdt_lYfSO3lV0xA1BYzgXkJuBqrkHH-" class="button"><i
+                class="fi fi-rr-download">Download CV</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
