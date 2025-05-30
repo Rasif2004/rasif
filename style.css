@@ -268,7 +268,9 @@ body {
 .project-image img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 6px;
 }
 
 .project-details {
